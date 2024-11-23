@@ -1,6 +1,6 @@
 # **🌟 United Monks: Creativity Without Drama**  
 
-**United Monks** was founded by a passionate team determined to explore their full creative potential, leaving behind office politics, long workdays, and everything uninspiring. Six years ago, we embarked on our journey to redefine creativity and deliver excellence. United, we deliver flexible, client-focused solutions that exceed expectations with impeccable results.  
+**United Monks** is a modern, responsive website built for a Full Stack Development Agency that showcases their comprehensive services including web development, mobile app development, and branding solutions.  
 
 ---
 
