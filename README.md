@@ -10,18 +10,6 @@
 
 ---
 
-## **✨ About Us**  
-
-At United Monks, we believe in:  
-
-- **Creative Freedom**: Embracing innovation and new possibilities.  
-- **Flexibility**: Adapting to client needs as a core value.  
-- **Impeccable Outcomes**: Ensuring every project reflects our dedication to excellence.  
-
-We left behind all things mundane—office politics, 12-hour workdays, and bad coffee—so we could focus on what matters: **pursuing creativity without drama.**  
-
----
-
 ## **🌟 Features**  
 
 1. **Seamless User Experience**  
