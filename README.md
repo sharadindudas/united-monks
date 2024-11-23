@@ -84,10 +84,10 @@ We left behind all things mundane—office politics, 12-hour workdays, and bad c
 
 ## **📞 Contact Us**  
 
-Feel free to reach out for collaborations or queries:  
+For queries, feedback, or suggestions, feel free to reach out:  
 
 - 📧 **Email**: [sharadindudas774@gmail.com](mailto:sharadindudas774@gmail.com)  
-- 🌐 **Website**: [www.unitedmonks.com](https://www.unitedmonks.com)  
+- 🐙 **GitHub**: [Sharadindu Das](https://github.com/sharadindudas)  
 
 ---
 
