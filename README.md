@@ -4,6 +4,12 @@
 
 ---
 
+## **🌟 Hosted Link**  
+
+👉 Check out the live website here: [United Monks](https://united-monks.vercel.app)  
+
+---
+
 ## **✨ About Us**  
 
 At United Monks, we believe in:  
@@ -85,4 +91,4 @@ Feel free to reach out for collaborations or queries:
 
 ---
 
-**To greatness and beyond!** 🚀  
+**To greatness and beyond!** 🚀
