@@ -20,15 +20,14 @@ import "./styles/Cyber.scss";
 import "./styles/WebApp.scss";
 
 function App() {
-
-  return (
-    <>
-      <ScrollToTop />
-      <Suspense fallback={<div id="loader"></div>}>
-        <AllRoutes />
-      </Suspense>
-    </>
-  )
+    return (
+        <>
+            <ScrollToTop />
+            <Suspense fallback={<div id="loader"></div>}>
+                <AllRoutes />
+            </Suspense>
+        </>
+    );
 }
 
-export default App
+export default App;

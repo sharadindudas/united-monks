@@ -1,16 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import { BrowserRouter } from "react-router-dom";
 import "./index.scss";
 import "./Responsive.scss";
 import "./clock.scss";
 
-import { BrowserRouter } from 'react-router-dom';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </BrowserRouter>
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <BrowserRouter>
+        <React.StrictMode>
+            <App />
+        </React.StrictMode>
+    </BrowserRouter>
+);

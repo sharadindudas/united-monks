@@ -1,519 +1,519 @@
 .mobile__wrapper {
-  width: 100%;
-  position: relative;
-  margin: 0;
-
-  #slider__section {
-    margin-bottom: 0;
-    .slider__container {
-      background-image: url("/asset/mobile-app-banner.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    .parallax {
-      .layer1 {
-        position: relative;
-        z-index: 0;
-      }
-
-      .green__circle {
-        top: 18%;
-        right: -15%;
-        position: absolute;
-        background: rgba(20, 184, 140, 0.65);
-        width: 600px;
-        height: 600px;
-        border-radius: 50%;
-      }
-
-      .layer2 {
-        position: absolute;
-      }
-
-      .medium__circle {
-        right: auto;
-        top: auto;
-        left: -8%;
-        bottom: 13%;
-        background: rgba(20, 184, 140, 0.65);
-      }
-    }
-
-    .container {
-      padding: 0;
-    }
-
-    .ui__banner {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      margin-top: -223.75px;
-      padding-left: 60px;
-
-      label {
-        font-size: 25px;
-        font-family: "Montserrat", sans-serif;
-        margin: 0;
-        text-transform: capitalize;
-        cursor: text;
-        display: block;
-      }
-
-      h1 {
-        font-size: 80px;
-        line-height: 1.1;
-      }
-
-      span{
-        display: block;
-      }
-
-      span.last__child {
-        display: inline-block;
-        position: relative;
-        width: 805px;
-        line-height: 1;
-
-        &::after {
-          display: block;
-          height: 10px;
-          bottom: -15px;
-          left: 0;
-          position: absolute;
-          width: 100%;
-          content: "";
-          background: #14b88c;
-        }
-      }
-
-      ul {
-        margin: 40px 0 0;
-        padding: 0;
-        list-style-type: none;
-
-        li {
-          margin: 0;
-          padding: 0 20px 0 0;
-          display: inline-block;
-        }
-      }
-
-      .ui__icon__container {
-        .ui__icon {
-          width: 100px;
-          height: 100px;
-          border-radius: 50%;
-          border: 2px solid #fff;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        p {
-          font-size: 13px;
-          font-weight: 600;
-          text-align: center;
-          margin: 10px 0 0;
-        }
-      }
-
-      a {
-        margin-top: 90px;
-        display: inline-block;
-        border: none;
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 600;
-        padding: 10px 30px;
-        border-radius: 30px;
-        cursor: pointer;
-
-        &:hover {
-          animation: green 0.6s linear 0s;
-        }
-      }
-    }
-  }
-
-  #mobile_help__section {
+    width: 100%;
     position: relative;
+    margin: 0;
 
-    .parallax {
-      .layer3 {
-        position: relative;
-      }
-
-      .large__circle {
-        left: -12%;
-        top: 30%;
-        width: 600px;
-        height: 600px;
-      }
-
-      .layer4 {
-        position: absolute;
-      }
-
-      .small__circle {
-        right: 2%;
-        bottom: 8%;
-      }
-    }
-  }
-
-  #consumer_app__section {
-    background: linear-gradient(
-      to right,
-      #fff 0%,
-      #fff 30%,
-      #002148 30%,
-      #002148 100%
-    );
-
-    .consumer_app_content {
-      padding: 0 0 70px;
-    }
-
-    .consume_app_content_left {
-      margin-left: -18px;
-      display: flex;
-      align-items: center;
-      height: 100%;
-    }
-
-    .consume_app_content_right {
-      h2 {
-        width: 385px;
-        padding: 0 0 40px;
-        font-size: 70px;
-        line-height: 1.1;
-        font-weight: 800;
-        margin: 0;
-      }
-
-      p {
+    #slider__section {
         margin-bottom: 0;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5 !important;
-        font-family: "Montserrat", sans-serif;
-        width: 558px;
-        margin: 0 0 25px;
-      }
+        .slider__container {
+            background-image: url("/asset/mobile-app-banner.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
 
-      span {
-        font-weight: 800;
-        font-size: 20px;
-        font-family: "Montserrat", sans-serif;
-        line-height: 1;
-        width: 460px;
-        display: block;
-        padding: 25px 0 0;
-      }
+        .parallax {
+            .layer1 {
+                position: relative;
+                z-index: 0;
+            }
 
-      ul {
-        margin: 36px 0 0;
-        padding: 0;
-        list-style-type: none;
-        position: relative;
+            .green__circle {
+                top: 18%;
+                right: -15%;
+                position: absolute;
+                background: rgba(20, 184, 140, 0.65);
+                width: 600px;
+                height: 600px;
+                border-radius: 50%;
+            }
 
-        li {
-          font-weight: 500;
-          font-size: 16px;
-          padding-bottom: 20px;
-          position: relative;
-          padding-left: 35px;
+            .layer2 {
+                position: absolute;
+            }
 
-          &::before {
-            content: "\f058";
-            font-family: "Font Awesome 5 Free";
-            font-size: 20px;
-            font-weight: 600;
-            top: -2px;
-            color: #14b88c;
-            display: block;
+            .medium__circle {
+                right: auto;
+                top: auto;
+                left: -8%;
+                bottom: 13%;
+                background: rgba(20, 184, 140, 0.65);
+            }
+        }
+
+        .container {
+            padding: 0;
+        }
+
+        .ui__banner {
             position: absolute;
-            left: 0;
-          }
+            top: 50%;
+            width: 100%;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: -223.75px;
+            padding-left: 60px;
+
+            label {
+                font-size: 25px;
+                font-family: "Montserrat", sans-serif;
+                margin: 0;
+                text-transform: capitalize;
+                cursor: text;
+                display: block;
+            }
+
+            h1 {
+                font-size: 80px;
+                line-height: 1.1;
+            }
+
+            span {
+                display: block;
+            }
+
+            span.last__child {
+                display: inline-block;
+                position: relative;
+                width: 805px;
+                line-height: 1;
+
+                &::after {
+                    display: block;
+                    height: 10px;
+                    bottom: -15px;
+                    left: 0;
+                    position: absolute;
+                    width: 100%;
+                    content: "";
+                    background: #14b88c;
+                }
+            }
+
+            ul {
+                margin: 40px 0 0;
+                padding: 0;
+                list-style-type: none;
+
+                li {
+                    margin: 0;
+                    padding: 0 20px 0 0;
+                    display: inline-block;
+                }
+            }
+
+            .ui__icon__container {
+                .ui__icon {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    border: 2px solid #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                p {
+                    font-size: 13px;
+                    font-weight: 600;
+                    text-align: center;
+                    margin: 10px 0 0;
+                }
+            }
+
+            a {
+                margin-top: 90px;
+                display: inline-block;
+                border: none;
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 10px 30px;
+                border-radius: 30px;
+                cursor: pointer;
+
+                &:hover {
+                    animation: green 0.6s linear 0s;
+                }
+            }
         }
-      }
-    }
-  }
-
-  #enterprise_app__section {
-    background: linear-gradient(
-      to left,
-      #fff 0%,
-      #fff 30%,
-      #14b88c 30%,
-      #14b88c 100%
-    );
-
-    .enterprise_app_content {
-      padding: 0 0 70px;
     }
 
-    .enterprise_app_content_right {
-      margin-right: -10px;
-      float: right;
-      display: flex;
-      align-items: center;
-      height: 100%;
-    }
-
-    .enterprise_app_content_left {
-      h2 {
-        width: 400px;
-        padding: 0 0 40px;
-        font-size: 70px;
-        line-height: 1.1;
-        font-weight: 800;
-        margin: 0;
-      }
-
-      p {
-        margin-bottom: 0;
-        font-weight: 500;
-        font-size: 16px;
-        font-family: "Montserrat", sans-serif;
-        width: 553px;
-        line-height: 1.5 !important;
-        margin: 0 0 25px;
-      }
-
-      span {
-        font-weight: 800;
-        font-size: 20px;
-        font-family: "Montserrat", sans-serif;
-        line-height: 1;
-        display: block;
-        padding: 25px 0 0;
-      }
-
-      ul {
-        margin: 36px 0 0;
-        padding: 0;
-        list-style-type: none;
+    #mobile_help__section {
         position: relative;
 
-        li {
-          font-weight: 500;
-          font-size: 16px;
-          padding-bottom: 20px;
-          position: relative;
-          padding-left: 35px;
+        .parallax {
+            .layer3 {
+                position: relative;
+            }
 
-          &::before {
-            content: url("/asset/common-bullet.png");
-            display: block;
+            .large__circle {
+                left: -12%;
+                top: 30%;
+                width: 600px;
+                height: 600px;
+            }
+
+            .layer4 {
+                position: absolute;
+            }
+
+            .small__circle {
+                right: 2%;
+                bottom: 8%;
+            }
+        }
+    }
+
+    #consumer_app__section {
+        background: linear-gradient(
+            to right,
+            #fff 0%,
+            #fff 30%,
+            #002148 30%,
+            #002148 100%
+        );
+
+        .consumer_app_content {
+            padding: 0 0 70px;
+        }
+
+        .consume_app_content_left {
+            margin-left: -18px;
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .consume_app_content_right {
+            h2 {
+                width: 385px;
+                padding: 0 0 40px;
+                font-size: 70px;
+                line-height: 1.1;
+                font-weight: 800;
+                margin: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5 !important;
+                font-family: "Montserrat", sans-serif;
+                width: 558px;
+                margin: 0 0 25px;
+            }
+
+            span {
+                font-weight: 800;
+                font-size: 20px;
+                font-family: "Montserrat", sans-serif;
+                line-height: 1;
+                width: 460px;
+                display: block;
+                padding: 25px 0 0;
+            }
+
+            ul {
+                margin: 36px 0 0;
+                padding: 0;
+                list-style-type: none;
+                position: relative;
+
+                li {
+                    font-weight: 500;
+                    font-size: 16px;
+                    padding-bottom: 20px;
+                    position: relative;
+                    padding-left: 35px;
+
+                    &::before {
+                        content: "\f058";
+                        font-family: "Font Awesome 5 Free";
+                        font-size: 20px;
+                        font-weight: 600;
+                        top: -2px;
+                        color: #14b88c;
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #enterprise_app__section {
+        background: linear-gradient(
+            to left,
+            #fff 0%,
+            #fff 30%,
+            #14b88c 30%,
+            #14b88c 100%
+        );
+
+        .enterprise_app_content {
+            padding: 0 0 70px;
+        }
+
+        .enterprise_app_content_right {
+            margin-right: -10px;
+            float: right;
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .enterprise_app_content_left {
+            h2 {
+                width: 400px;
+                padding: 0 0 40px;
+                font-size: 70px;
+                line-height: 1.1;
+                font-weight: 800;
+                margin: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+                font-weight: 500;
+                font-size: 16px;
+                font-family: "Montserrat", sans-serif;
+                width: 553px;
+                line-height: 1.5 !important;
+                margin: 0 0 25px;
+            }
+
+            span {
+                font-weight: 800;
+                font-size: 20px;
+                font-family: "Montserrat", sans-serif;
+                line-height: 1;
+                display: block;
+                padding: 25px 0 0;
+            }
+
+            ul {
+                margin: 36px 0 0;
+                padding: 0;
+                list-style-type: none;
+                position: relative;
+
+                li {
+                    font-weight: 500;
+                    font-size: 16px;
+                    padding-bottom: 20px;
+                    position: relative;
+                    padding-left: 35px;
+
+                    &::before {
+                        content: url("/asset/common-bullet.png");
+                        display: block;
+                        position: absolute;
+                        top: 2px;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    #our_application_process__section {
+        .our_process_content {
+            padding-bottom: 80px;
+
+            h2 {
+                text-align: center;
+                font-size: 70px;
+                line-height: 1.1;
+                font-weight: 800;
+                margin: 0;
+            }
+
+            .mobile_app_process {
+                margin: 90px 0 0;
+                position: relative;
+            }
+
+            .mobile_app_process_child {
+                position: relative;
+            }
+
+            .mobile_app_process_circle {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 0;
+                left: -35px;
+                box-shadow: inset 0 0 1px 15px rgba(20, 184, 140, 1);
+                z-index: 1;
+            }
+
+            .mobile_app_process_circle_child {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background: #fff;
+                box-shadow: 0 0 1px 10px rgba(0, 0, 0, 1);
+            }
+
+            .mobile_app_progress_bar {
+                position: relative;
+
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 2px;
+                    height: 35vh;
+                    background: #fff;
+                    position: absolute;
+                    left: 0;
+                    top: 40px;
+                }
+            }
+
+            .mobile_app_process_content {
+                margin: 20px 0 0 90px;
+                position: relative;
+
+                span {
+                    font-size: 30px;
+                    font-weight: 800;
+                    font-family: "Raleway", sans-serif;
+                    padding-bottom: 20px;
+                    display: block;
+                    line-height: 1;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: "Montserrat", sans-serif;
+                    line-height: 1.7 !important;
+                    margin: 0;
+                    width: 100%;
+                }
+            }
+
+            .mobile_app_process_circle.two {
+                left: auto;
+                right: -35px;
+            }
+
+            .mobile_app_progress_bar.two {
+                &::after {
+                    right: -2px;
+                    left: auto;
+                    top: 40px;
+                    height: 33vh;
+                }
+            }
+
+            .mobile_app_process_content.two {
+                margin: 20px 90px 0 0;
+                text-align: right;
+            }
+
+            .mobile_app_progress_bar.three {
+                &::afterp {
+                    height: 24vh;
+                }
+            }
+        }
+    }
+
+    #project_mobile__section {
+        .project_frontend {
+            position: relative;
+            padding-bottom: 100px;
+        }
+
+        .portfolio__container {
+            h2 {
+                top: -60px;
+                left: 0;
+                font-size: 285px;
+                color: #f2f2f2;
+                position: absolute;
+                font-weight: 800;
+                margin: 0;
+            }
+        }
+
+        .portfolio_carousel {
+            padding: 255px 0 0;
+            position: relative;
+
+            .parallax {
+                .layer {
+                    position: relative;
+                }
+
+                .large__circle {
+                    top: 10%;
+                    left: -15%;
+                    position: absolute;
+                    width: 600px;
+                    height: 600px;
+                }
+            }
+
+            .portfolio_item_text {
+                margin: 110px 0 0 30px;
+
+                h5 {
+                    width: 100%;
+                    font-size: 40px;
+                    line-height: 1.3 !important;
+                    font-weight: 800;
+                    margin: 0;
+                }
+
+                p {
+                    line-height: 1.8;
+                    width: 71%;
+                    font-weight: 500;
+                    font-size: 16px;
+                    margin: 25px 0 10px;
+                }
+            }
+        }
+
+        .owl-carousel .owl-nav [class*="owl-"] {
             position: absolute;
-            top: 2px;
-            left: 0;
-          }
+            top: 50%;
+            margin-top: -18px;
+            zoom: 1;
+            width: 36px;
+            line-height: 32px;
+            font-size: 18px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
         }
-      }
+
+        .owl-prev {
+            right: auto;
+            left: -80px;
+
+            &:hover {
+                background-color: transparent !important;
+            }
+        }
+
+        .owl-next {
+            left: auto;
+            right: -80px;
+
+            &:hover {
+                background-color: transparent !important;
+            }
+        }
     }
-  }
-
-  #our_application_process__section {
-    .our_process_content {
-      padding-bottom: 80px;
-
-      h2 {
-        text-align: center;
-        font-size: 70px;
-        line-height: 1.1;
-        font-weight: 800;
-        margin: 0;
-      }
-
-      .mobile_app_process {
-        margin: 90px 0 0;
-        position: relative;
-      }
-
-      .mobile_app_process_child {
-        position: relative;
-      }
-
-      .mobile_app_process_circle {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 0;
-        left: -35px;
-        box-shadow: inset 0 0 1px 15px rgba(20, 184, 140, 1);
-        z-index: 1;
-      }
-
-      .mobile_app_process_circle_child {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: #fff;
-        box-shadow: 0 0 1px 10px rgba(0, 0, 0, 1);
-      }
-
-      .mobile_app_progress_bar {
-        position: relative;
-
-        &::after {
-          content: "";
-          display: block;
-          width: 2px;
-          height: 35vh;
-          background: #fff;
-          position: absolute;
-          left: 0;
-          top: 40px;
-        }
-      }
-
-      .mobile_app_process_content {
-        margin: 20px 0 0 90px;
-        position: relative;
-
-        span {
-          font-size: 30px;
-          font-weight: 800;
-          font-family: "Raleway", sans-serif;
-          padding-bottom: 20px;
-          display: block;
-          line-height: 1;
-        }
-
-        p {
-          font-size: 16px;
-          font-weight: 500;
-          font-family: "Montserrat", sans-serif;
-          line-height: 1.7 !important;
-          margin: 0;
-          width: 100%;
-        }
-      }
-
-      .mobile_app_process_circle.two {
-        left: auto;
-        right: -35px;
-      }
-
-      .mobile_app_progress_bar.two {
-        &::after {
-          right: -2px;
-          left: auto;
-          top: 40px;
-          height: 33vh;
-        }
-      }
-
-      .mobile_app_process_content.two {
-        margin: 20px 90px 0 0;
-        text-align: right;
-      }
-
-      .mobile_app_progress_bar.three {
-        &::afterp {
-          height: 24vh;
-        }
-      }
-    }
-  }
-
-  #project_mobile__section {
-    .project_frontend {
-      position: relative;
-      padding-bottom: 100px;
-    }
-
-    .portfolio__container {
-      h2 {
-        top: -60px;
-        left: 0;
-        font-size: 285px;
-        color: #f2f2f2;
-        position: absolute;
-        font-weight: 800;
-        margin: 0;
-      }
-    }
-
-    .portfolio_carousel {
-      padding: 255px 0 0;
-      position: relative;
-
-      .parallax {
-        .layer {
-          position: relative;
-        }
-
-        .large__circle {
-          top: 10%;
-          left: -15%;
-          position: absolute;
-          width: 600px;
-          height: 600px;
-        }
-      }
-
-      .portfolio_item_text {
-        margin: 110px 0 0 30px;
-
-        h5 {
-          width: 100%;
-          font-size: 40px;
-          line-height: 1.3 !important;
-          font-weight: 800;
-          margin: 0;
-        }
-
-        p {
-          line-height: 1.8;
-          width: 71%;
-          font-weight: 500;
-          font-size: 16px;
-          margin: 25px 0 10px;
-        }
-      }
-    }
-
-    .owl-carousel .owl-nav [class*="owl-"] {
-      position: absolute;
-      top: 50%;
-      margin-top: -18px;
-      zoom: 1;
-      width: 36px;
-      line-height: 32px;
-      font-size: 18px;
-      border-radius: 50%;
-      transition: all 0.3s ease;
-    }
-
-    .owl-prev {
-      right: auto;
-      left: -80px;
-
-      &:hover {
-        background-color: transparent !important;
-      }
-    }
-
-    .owl-next {
-      left: auto;
-      right: -80px;
-
-      &:hover {
-        background-color: transparent !important;
-      }
-    }
-  }
 }

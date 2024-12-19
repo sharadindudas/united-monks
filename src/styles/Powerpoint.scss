@@ -1,237 +1,237 @@
 .powerpoint__wrapper {
-  width: 100%;
-  position: relative;
-  margin: 0;
-
-  #slider__section {
-    margin-bottom: 0;
-    .slider__container {
-      background-image: url("/asset/powerpoint-banner.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    .container {
-      padding: 0;
-    }
-
-    .ui__banner {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      margin-top: -138.75px;
-      padding-left: 60px;
-
-      label {
-        font-size: 25px;
-        font-family: "Montserrat", sans-serif;
-        margin: 0;
-        text-transform: capitalize;
-        cursor: text;
-        display: block;
-      }
-
-      h1 {
-        font-size: 80px;
-        line-height: 1.1;
-      }
-
-      span{
-        display: block;
-      }
-
-      span.last__child {
-        display: inline-block;
-        position: relative;
-
-        &::after {
-          display: block;
-          height: 10px;
-          bottom: -15px;
-          left: 0;
-          position: absolute;
-          width: 100%;
-          content: "";
-          background: #14b88c;
-        }
-      }
-
-      a {
-        margin-top: 90px;
-        display: inline-block;
-        border: none;
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 600;
-        padding: 10px 30px;
-        border-radius: 30px;
-        cursor: pointer;
-
-        &:hover {
-          animation: green 0.6s linear 0s;
-        }
-      }
-    }
-  }
-
-  #powerpoint__section {
+    width: 100%;
     position: relative;
+    margin: 0;
 
-    .parallax {
-      .layer3 {
+    #slider__section {
+        margin-bottom: 0;
+        .slider__container {
+            background-image: url("/asset/powerpoint-banner.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .container {
+            padding: 0;
+        }
+
+        .ui__banner {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: -138.75px;
+            padding-left: 60px;
+
+            label {
+                font-size: 25px;
+                font-family: "Montserrat", sans-serif;
+                margin: 0;
+                text-transform: capitalize;
+                cursor: text;
+                display: block;
+            }
+
+            h1 {
+                font-size: 80px;
+                line-height: 1.1;
+            }
+
+            span {
+                display: block;
+            }
+
+            span.last__child {
+                display: inline-block;
+                position: relative;
+
+                &::after {
+                    display: block;
+                    height: 10px;
+                    bottom: -15px;
+                    left: 0;
+                    position: absolute;
+                    width: 100%;
+                    content: "";
+                    background: #14b88c;
+                }
+            }
+
+            a {
+                margin-top: 90px;
+                display: inline-block;
+                border: none;
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 10px 30px;
+                border-radius: 30px;
+                cursor: pointer;
+
+                &:hover {
+                    animation: green 0.6s linear 0s;
+                }
+            }
+        }
+    }
+
+    #powerpoint__section {
         position: relative;
-      }
 
-      .layer4 {
-        position: absolute;
-      }
+        .parallax {
+            .layer3 {
+                position: relative;
+            }
 
-      .large__circle {
-        bottom: -15%;
-        left: -6%;
-        width: 350px;
-        height: 350px;
-      }
+            .layer4 {
+                position: absolute;
+            }
 
-      .small__circle {
-        bottom: 0;
-        right: 2%;
-      }
+            .large__circle {
+                bottom: -15%;
+                left: -6%;
+                width: 350px;
+                height: 350px;
+            }
+
+            .small__circle {
+                bottom: 0;
+                right: 2%;
+            }
+        }
+
+        .ecommerce_solution_content {
+            h2 {
+                width: 775px;
+                margin-bottom: 50px;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                width: 829px;
+                line-height: 1.6 !important;
+            }
+        }
     }
 
-    .ecommerce_solution_content {
-      h2 {
-        width: 775px;
-        margin-bottom: 50px;
-      }
+    #presentation__section {
+        .presentation_services {
+            padding: 0 0 40px;
+        }
 
-      p {
-        font-weight: 500;
-        font-size: 16px;
-        width: 829px;
-        line-height: 1.6 !important;
-      }
-    }
-  }
+        .presentation_services_left {
+            h2 {
+                line-height: 1;
+                font-size: 70px;
+                font-weight: 800;
+                margin: 0;
+            }
 
-  #presentation__section {
-    .presentation_services {
-      padding: 0 0 40px;
-    }
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.4 !important;
+                margin: 45px 0 60px;
+            }
+        }
 
-    .presentation_services_left {
-      h2 {
-        line-height: 1;
-        font-size: 70px;
-        font-weight: 800;
-        margin: 0;
-      }
+        .services_child_element.odd {
+            padding-right: 15px;
+        }
 
-      p {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.4 !important;
-        margin: 45px 0 60px;
-      }
-    }
+        .services_child_element.even {
+            padding-left: 15px;
+        }
 
-    .services_child_element.odd {
-      padding-right: 15px;
-    }
+        .services_child_element {
+            padding-bottom: 35px;
 
-    .services_child_element.even {
-      padding-left: 15px;
-    }
+            span {
+                display: block;
+                font-weight: bold;
+                font-size: 25px;
+                font-family: "Montserrat", sans-serif;
+                line-height: 1.1;
+                padding: 30px 0 25px;
+            }
 
-    .services_child_element {
-      padding-bottom: 35px;
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                margin: 0;
+                line-height: 1.4 !important;
+            }
+        }
 
-      span {
-        display: block;
-        font-weight: bold;
-        font-size: 25px;
-        font-family: "Montserrat", sans-serif;
-        line-height: 1.1;
-        padding: 30px 0 25px;
-      }
+        .presentation_services_carousel {
+            position: absolute;
+            height: 100%;
+            width: 930px;
+            padding: 130px 0 0;
+        }
 
-      p {
-        font-weight: 500;
-        font-size: 16px;
-        margin: 0;
-        line-height: 1.4 !important;
-      }
+        .owl-theme .owl-dots .owl-dot span {
+            width: 12px;
+            height: 12px;
+        }
     }
 
-    .presentation_services_carousel {
-      position: absolute;
-      height: 100%;
-      width: 930px;
-      padding: 130px 0 0;
+    #our_process__section {
+        .presentation_process_content {
+            padding: 0 0 90px;
+
+            h2 {
+                line-height: 1;
+                font-size: 70px;
+                font-weight: 800;
+                margin: 0;
+            }
+
+            p {
+                margin: 30px 0 0;
+                font-weight: 500;
+                font-size: 16px;
+                font-family: "Montserrat", sans-serif;
+                width: 690px;
+                line-height: 1.4 !important;
+            }
+        }
+
+        .presentation_process_child {
+            padding: 60px 0 0;
+        }
+
+        .presentation_child_content {
+            text-align: center;
+
+            span {
+                font-weight: 300;
+                font-size: 140px;
+                font-family: "Montserrat", sans-serif;
+                line-height: 1;
+            }
+
+            label {
+                display: block;
+                cursor: text;
+                font-size: 30px;
+                font-weight: 800;
+                text-transform: capitalize;
+                line-height: 1.1;
+                margin: 10px 0 25px;
+            }
+
+            p {
+                width: 355px;
+                margin: 15px auto 0;
+                font-weight: 500;
+                font-size: 16px;
+                font-family: "Montserrat", sans-serif;
+                line-height: 1.4 !important;
+            }
+        }
     }
-
-    .owl-theme .owl-dots .owl-dot span {
-      width: 12px;
-      height: 12px;
-    }
-  }
-
-  #our_process__section {
-    .presentation_process_content {
-      padding: 0 0 90px;
-
-      h2 {
-        line-height: 1;
-        font-size: 70px;
-        font-weight: 800;
-        margin: 0;
-      }
-
-      p {
-        margin: 30px 0 0;
-        font-weight: 500;
-        font-size: 16px;
-        font-family: "Montserrat", sans-serif;
-        width: 690px;
-        line-height: 1.4 !important;
-      }
-    }
-
-    .presentation_process_child{
-      padding: 60px 0 0;
-    }
-
-    .presentation_child_content{
-      text-align: center;
-
-      span{
-        font-weight: 300;
-        font-size: 140px;
-        font-family: 'Montserrat', sans-serif;
-        line-height: 1;
-      }
-
-      label{
-        display: block;
-        cursor: text;
-        font-size: 30px;
-        font-weight: 800;
-        text-transform: capitalize;
-        line-height: 1.1;
-        margin: 10px 0 25px;
-      }
-
-      p{
-        width: 355px;
-        margin: 15px auto 0;
-        font-weight: 500;
-        font-size: 16px;
-        font-family: 'Montserrat', sans-serif;
-        line-height: 1.4 !important;
-      }
-    }
-  }
 }
