@@ -6,7 +6,7 @@ import Typed from "typed.js";
 import Footer from "../components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import Carousel from "../components/Carousel";
 import anime from "animejs/lib/anime.es.js";
 

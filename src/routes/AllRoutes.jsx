@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router";
 import { lazy } from "react";
 const Home = lazy(() => import("../pages/Home"));
 const Story = lazy(() => import("../pages/Story"));

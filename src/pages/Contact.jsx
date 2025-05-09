@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { toast, Toaster } from "react-hot-toast";
 
 function Contact() {

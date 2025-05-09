@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 function Portfolio() {
     const [toggle, setToggle] = useState(false);

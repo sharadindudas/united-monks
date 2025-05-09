@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import { BrowserRouter } from "react-router-dom";
-import "./index.scss";
-import "./Responsive.scss";
-import "./clock.scss";
+import { BrowserRouter } from "react-router";
+import "./styles/index.scss";
+import "./styles/Responsive.scss";
+import "./styles/Clock.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
